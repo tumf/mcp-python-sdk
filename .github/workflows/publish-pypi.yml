@@ -38,7 +38,9 @@ jobs:
   pypi-publish:
     name: Upload release to PyPI
     runs-on: ubuntu-latest
-    environment: release
+    environment:
+      name: pypi
+      url: https://pypi.org/p/mcp-tumf-fork
     needs:
       - release-build
     permissions:
