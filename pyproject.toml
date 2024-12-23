@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-tumf-fork"
+name = "mcp"
 version = "1.1.3a1"
 description = "Model Context Protocol SDK"
 readme = "README.md"
